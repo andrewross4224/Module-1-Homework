@@ -1,0 +1,135 @@
+/* Optimized and condensed CSS code where I saw opportunities to improve efficiency */
+/* changed some CSS elements to HTML selectors after removing DIV and replacing with different semantic tags */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* setting background color for whole page */
+body {
+    background-color: #d9dcd6;
+}
+/* changing colors and adding padding to header */
+header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* making sure nav bar displays inline with header */
+nav {
+    display: inline;
+}
+/* adding detail signifying SEARCH ENGINE OPTIMIZATION inside of header element */
+#seo {
+    color: #d9dcd6;
+}
+/* making sure nav bar displays inline and to the right of header */
+ul {
+    padding-top: 15px;
+    float: right;
+}
+
+li {
+    display: inline;
+}
+/* setting style for anchor tags within nav bar */
+a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 24px;
+}
+/* setting style for main title of website */
+h1 {
+    display: inline;
+    font-size: 48px;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* setting font size for all p elements in page */
+p {
+    font-size: 16px;
+}
+/* defining parameters of banner image on page */
+#banner-img {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(../images/digital-marketing-meeting.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* changing the side of the card images are on for main article */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* setting parameters for main content on page */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* setting parameters for aside semantic*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* condensed repetative code for benefits section */
+.benefit-section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* condensed repetative code for article section */
+.card {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.card img {
+    max-height: 200px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* changed footer from element classes to semantic selectors */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
