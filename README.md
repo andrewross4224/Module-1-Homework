@@ -12,7 +12,6 @@ https://andrewross4224.github.io/Module-1-Homework/
 ## Website Image
 
 ![Alt text](/assets/images/Horiseon.png?raw=true "Horiseon")
-assets/images/Horiseon.png
 
 ## Credits
 
